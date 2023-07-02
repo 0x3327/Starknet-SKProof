@@ -1,0 +1,11 @@
+setup.py
+starknet_skproof/__init__.py
+starknet_skproof.egg-info/PKG-INFO
+starknet_skproof.egg-info/SOURCES.txt
+starknet_skproof.egg-info/dependency_links.txt
+starknet_skproof.egg-info/requires.txt
+starknet_skproof.egg-info/top_level.txt
+starknet_skproof/float_num/FloatNum.py
+starknet_skproof/float_num/__init__.py
+starknet_skproof/mlp/MLPClassifierProver.py
+starknet_skproof/mlp/__init__.py
