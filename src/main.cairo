@@ -169,172 +169,172 @@ fn addFloats(x: Float, y: Float) -> Float {
 fn subFloats(x : Float, y : Float) -> Float {
     addFloats(x, Float { sign: 1 - y.sign, mantissa: y.mantissa, exponent: y.exponent })
 }
-// A_1_0_0 = 5100000e94 * -5422474e93 = -2765461e94
-// A_1_0_1 = 3500000e94 * -1509631e93 = -5283708e93
-// A_1_0_2 = 1400000e94 * 9585442e93 = 1341961e94
-// A_1_0_3 = 2000000e93 * 1079883e94 = 2159766e93
-// B_0_0_0 = -2765461e94 + -5283708e93 = -3293831e94
-// B_0_0_1 = -3293831e94 + 1341961e94 = -1951870e94
-// B_0_0_2 = -1951870e94 + 2159766e93 = -1735893e94
-// WXb_0_0 = -1735893e94 + 1073421e94 = -662472e94
-// A_1_1_0 = 5100000e94 * -9670264e91 = -4931834e92
-// A_1_1_1 = 3500000e94 * -8315647e92 = -2910476e93
-// A_1_1_2 = 1400000e94 * 7555629e86 = 1057788e87
-// A_1_1_3 = 2000000e93 * 9822543e89 = 1964508e89
-// B_0_1_0 = -4931834e92 + -2910476e93 = -3403659e93
-// B_0_1_1 = -3403659e93 + 1057788e87 = -3403657e93
-// B_0_1_2 = -3403657e93 + 1964508e89 = -3403460e93
-// WXb_0_1 = -3403460e93 + -7689792e93 = -1109325e94
-// A_2_0_0 = 0e100 * -7565730e93 = 0e100
-// A_2_0_1 = 0e100 * -1422424e90 = 0e100
-// B_1_0_0 = 0e100 + 0e100 = 0e100
-// WXb_1_0 = 0e100 + 1166841e94 = 1166841e94
-// A_2_1_0 = 0e100 * -173e86 = 0e100
-// A_2_1_1 = 0e100 * 3326744e91 = 0e100
-// B_1_1_0 = 0e100 + 0e100 = 0e100
-// WXb_1_1 = 0e100 + -3018038e93 = -3018038e93
-// A_2_2_0 = 0e100 * -3681168e93 = 0e100
-// A_2_2_1 = 0e100 * -4147906e88 = 0e100
-// B_1_2_0 = 0e100 + 0e100 = 0e100
-// WXb_1_2 = 0e100 + 7345154e93 = 7345154e93
-// A_3_0_0 = 1166841e94 * 2199182e94 = 2566095e94
-// A_3_0_1 = 0e100 * -6320441e92 = 0e100
-// A_3_0_2 = 7345154e93 * 1702118e94 = 1250231e94
-// B_2_0_0 = 2566095e94 + 0e100 = 2566095e94
-// B_2_0_1 = 2566095e94 + 1250231e94 = 3816326e94
-// WXb_2_0 = 3816326e94 + -8068649e93 = 3009461e94
-// A_3_1_0 = 1166841e94 * -6908256e93 = -8060836e93
-// A_3_1_1 = 0e100 * -5093155e92 = 0e100
-// A_3_1_2 = 7345154e93 * -1573242e94 = -1155570e94
-// B_2_1_0 = -8060836e93 + 0e100 = -8060836e93
-// B_2_1_1 = -8060836e93 + -1155570e94 = -1961653e94
-// WXb_2_1 = -1961653e94 + 6239039e93 = -1337749e94
-// A_3_2_0 = 1166841e94 * -1771110e94 = -2066603e94
-// A_3_2_1 = 0e100 * -2374791e91 = 0e100
-// A_3_2_2 = 7345154e93 * -1539892e93 = -1131074e93
-// B_2_2_0 = -2066603e94 + 0e100 = -2066603e94
-// B_2_2_1 = -2066603e94 + -1131074e93 = -2179710e94
-// WXb_2_2 = -2179710e94 + 4816844e93 = -1698025e94
+// A_1_0_0 = 5100000e94 * 1118283e94 = 5703243e94
+// A_1_0_1 = 3500000e94 * 4968464e93 = 1738962e94
+// A_1_0_2 = 1400000e94 * -1100213e94 = -1540298e94
+// A_1_0_3 = 2000000e93 * -1175861e94 = -2351722e93
+// B_0_0_0 = 5703243e94 + 1738962e94 = 7442205e94
+// B_0_0_1 = 7442205e94 + -1540298e94 = 5901907e94
+// B_0_0_2 = 5901907e94 + -2351722e93 = 5666734e94
+// WXb_0_0 = 5666734e94 + 8198805e93 = 6486614e94
+// A_1_1_0 = 5100000e94 * 1170625e94 = 5970187e94
+// A_1_1_1 = 3500000e94 * -1339560e94 = -4688460e94
+// A_1_1_2 = 1400000e94 * 4150803e93 = 5811124e93
+// A_1_1_3 = 2000000e93 * 1486243e94 = 2972486e93
+// B_0_1_0 = 5970187e94 + -4688460e94 = 1281727e94
+// B_0_1_1 = 1281727e94 + 5811124e93 = 1862839e94
+// B_0_1_2 = 1862839e94 + 2972486e93 = 2160087e94
+// WXb_0_1 = 2160087e94 + -4544296e93 = 1705657e94
+// A_2_0_0 = 6486614e94 * -1463695e94 = -9494424e94
+// A_2_0_1 = 1705657e94 * 5688212e93 = 9702138e93
+// B_1_0_0 = -9494424e94 + 9702138e93 = -8524210e94
+// WXb_1_0 = -8524210e94 + 3104095e93 = -8213800e94
+// A_2_1_0 = 6486614e94 * -4517394e93 = -2930259e94
+// A_2_1_1 = 1705657e94 * 6733924e93 = 1148576e94
+// B_1_1_0 = -2930259e94 + 1148576e94 = -1781683e94
+// WXb_1_1 = -1781683e94 + 9287307e93 = -8529523e93
+// A_2_2_0 = 6486614e94 * 2441384e91 = 1583631e92
+// A_2_2_1 = 1705657e94 * -2200086e92 = -3752592e92
+// B_1_2_0 = 1583631e92 + -3752592e92 = -2168961e92
+// WXb_1_2 = -2168961e92 + -6575089e93 = -6791985e93
+// A_3_0_0 = 0e100 * -7529542e93 = 0e100
+// A_3_0_1 = 0e100 * -1213658e94 = 0e100
+// A_3_0_2 = 0e100 * -3200535e89 = 0e100
+// B_2_0_0 = 0e100 + 0e100 = 0e100
+// B_2_0_1 = 0e100 + 0e100 = 0e100
+// WXb_2_0 = 0e100 + 1517988e94 = 1517988e94
+// A_3_1_0 = 0e100 * -1221788e94 = 0e100
+// A_3_1_1 = 0e100 * 8858901e93 = 0e100
+// A_3_1_2 = 0e100 * 2207043e92 = 0e100
+// B_2_1_0 = 0e100 + 0e100 = 0e100
+// B_2_1_1 = 0e100 + 0e100 = 0e100
+// WXb_2_1 = 0e100 + -8762696e93 = -8762696e93
+// A_3_2_0 = 0e100 * 1800546e94 = 0e100
+// A_3_2_1 = 0e100 * -5951817e92 = 0e100
+// A_3_2_2 = 0e100 * 6244912e92 = 0e100
+// B_2_2_0 = 0e100 + 0e100 = 0e100
+// B_2_2_1 = 0e100 + 0e100 = 0e100
+// WXb_2_2 = 0e100 + -1559046e94 = -1559046e94
 // X_0_0 => 5100000e94
 // X_0_1 => 3500000e94
 // X_0_2 => 1400000e94
 // X_0_3 => 2000000e93
-// A_1_0_0 => -2765461e94
-// A_1_0_1 => -5283708e93
-// A_1_0_2 => 1341961e94
-// A_1_0_3 => 2159766e93
-// B_0_0_0 => -3293831e94
-// B_0_0_1 => -1951870e94
-// B_0_0_2 => -1735893e94
-// WXb_0_0 => -662472e94
-// X_1_0 => 0e100
-// A_1_1_0 => -4931834e92
-// A_1_1_1 => -2910476e93
-// A_1_1_2 => 1057788e87
-// A_1_1_3 => 1964508e89
-// B_0_1_0 => -3403659e93
-// B_0_1_1 => -3403657e93
-// B_0_1_2 => -3403460e93
-// WXb_0_1 => -1109325e94
-// X_1_1 => 0e100
-// A_2_0_0 => 0e100
-// A_2_0_1 => 0e100
-// B_1_0_0 => 0e100
-// WXb_1_0 => 1166841e94
-// X_2_0 => 1166841e94
-// A_2_1_0 => 0e100
-// A_2_1_1 => 0e100
-// B_1_1_0 => 0e100
-// WXb_1_1 => -3018038e93
+// A_1_0_0 => 5703243e94
+// A_1_0_1 => 1738962e94
+// A_1_0_2 => -1540298e94
+// A_1_0_3 => -2351722e93
+// B_0_0_0 => 7442205e94
+// B_0_0_1 => 5901907e94
+// B_0_0_2 => 5666734e94
+// WXb_0_0 => 6486614e94
+// X_1_0 => 6486614e94
+// A_1_1_0 => 5970187e94
+// A_1_1_1 => -4688460e94
+// A_1_1_2 => 5811124e93
+// A_1_1_3 => 2972486e93
+// B_0_1_0 => 1281727e94
+// B_0_1_1 => 1862839e94
+// B_0_1_2 => 2160087e94
+// WXb_0_1 => 1705657e94
+// X_1_1 => 1705657e94
+// A_2_0_0 => -9494424e94
+// A_2_0_1 => 9702138e93
+// B_1_0_0 => -8524210e94
+// WXb_1_0 => -8213800e94
+// X_2_0 => 0e100
+// A_2_1_0 => -2930259e94
+// A_2_1_1 => 1148576e94
+// B_1_1_0 => -1781683e94
+// WXb_1_1 => -8529523e93
 // X_2_1 => 0e100
-// A_2_2_0 => 0e100
-// A_2_2_1 => 0e100
-// B_1_2_0 => 0e100
-// WXb_1_2 => 7345154e93
-// X_2_2 => 7345154e93
-// A_3_0_0 => 2566095e94
+// A_2_2_0 => 1583631e92
+// A_2_2_1 => -3752592e92
+// B_1_2_0 => -2168961e92
+// WXb_1_2 => -6791985e93
+// X_2_2 => 0e100
+// A_3_0_0 => 0e100
 // A_3_0_1 => 0e100
-// A_3_0_2 => 1250231e94
-// B_2_0_0 => 2566095e94
-// B_2_0_1 => 3816326e94
-// WXb_2_0 => 3009461e94
-// O_3_0 => 3009461e94
-// A_3_1_0 => -8060836e93
+// A_3_0_2 => 0e100
+// B_2_0_0 => 0e100
+// B_2_0_1 => 0e100
+// WXb_2_0 => 1517988e94
+// O_3_0 => 1517988e94
+// A_3_1_0 => 0e100
 // A_3_1_1 => 0e100
-// A_3_1_2 => -1155570e94
-// B_2_1_0 => -8060836e93
-// B_2_1_1 => -1961653e94
-// WXb_2_1 => -1337749e94
+// A_3_1_2 => 0e100
+// B_2_1_0 => 0e100
+// B_2_1_1 => 0e100
+// WXb_2_1 => -8762696e93
 // O_3_1 => 0e100
-// A_3_2_0 => -2066603e94
+// A_3_2_0 => 0e100
 // A_3_2_1 => 0e100
-// A_3_2_2 => -1131074e93
-// B_2_2_0 => -2066603e94
-// B_2_2_1 => -2179710e94
-// WXb_2_2 => -1698025e94
+// A_3_2_2 => 0e100
+// B_2_2_0 => 0e100
+// B_2_2_1 => 0e100
+// WXb_2_2 => -1559046e94
 // O_3_2 => 0e100
 fn main() {
 	let X_0_0 = Float{ sign: 0, mantissa: 5100000, exponent: 94 };
 	let X_0_1 = Float{ sign: 0, mantissa: 3500000, exponent: 94 };
 	let X_0_2 = Float{ sign: 0, mantissa: 1400000, exponent: 94 };
 	let X_0_3 = Float{ sign: 0, mantissa: 2000000, exponent: 93 };
-	let y_1 = Float{ sign: 0, mantissa: 3009461, exponent: 94 };
+	let y_1 = Float{ sign: 0, mantissa: 1517988, exponent: 94 };
 	let y_2 = Float{ sign: 0, mantissa: 0, exponent: 100 };
 	let y_3 = Float{ sign: 0, mantissa: 0, exponent: 100 };
 
-	let A_1_0_0 = mulFloats(X_0_0, Float {sign: 1, mantissa: 5422474, exponent: 93 });
-	let A_1_0_1 = mulFloats(X_0_1, Float {sign: 1, mantissa: 1509631, exponent: 93 });
-	let A_1_0_2 = mulFloats(X_0_2, Float {sign: 0, mantissa: 9585442, exponent: 93 });
-	let A_1_0_3 = mulFloats(X_0_3, Float {sign: 0, mantissa: 1079883, exponent: 94 });
+	let A_1_0_0 = mulFloats(X_0_0, Float {sign: 0, mantissa: 1118283, exponent: 94 });
+	let A_1_0_1 = mulFloats(X_0_1, Float {sign: 0, mantissa: 4968464, exponent: 93 });
+	let A_1_0_2 = mulFloats(X_0_2, Float {sign: 1, mantissa: 1100213, exponent: 94 });
+	let A_1_0_3 = mulFloats(X_0_3, Float {sign: 1, mantissa: 1175861, exponent: 94 });
 	let B_0_0_0 = addFloats(A_1_0_0, A_1_0_1);
 	let B_0_0_1 = addFloats(B_0_0_0, A_1_0_2);
 	let B_0_0_2 = addFloats(B_0_0_1, A_1_0_3);
-	let WXb_0_0 = addFloats(B_0_0_2, Float {sign: 0, mantissa: 1073421, exponent: 94 });
+	let WXb_0_0 = addFloats(B_0_0_2, Float {sign: 0, mantissa: 8198805, exponent: 93 });
 	let X_1_0 = relu(WXb_0_0);
-	let A_1_1_0 = mulFloats(X_0_0, Float {sign: 1, mantissa: 9670264, exponent: 91 });
-	let A_1_1_1 = mulFloats(X_0_1, Float {sign: 1, mantissa: 8315647, exponent: 92 });
-	let A_1_1_2 = mulFloats(X_0_2, Float {sign: 0, mantissa: 7555629, exponent: 86 });
-	let A_1_1_3 = mulFloats(X_0_3, Float {sign: 0, mantissa: 9822543, exponent: 89 });
+	let A_1_1_0 = mulFloats(X_0_0, Float {sign: 0, mantissa: 1170625, exponent: 94 });
+	let A_1_1_1 = mulFloats(X_0_1, Float {sign: 1, mantissa: 1339560, exponent: 94 });
+	let A_1_1_2 = mulFloats(X_0_2, Float {sign: 0, mantissa: 4150803, exponent: 93 });
+	let A_1_1_3 = mulFloats(X_0_3, Float {sign: 0, mantissa: 1486243, exponent: 94 });
 	let B_0_1_0 = addFloats(A_1_1_0, A_1_1_1);
 	let B_0_1_1 = addFloats(B_0_1_0, A_1_1_2);
 	let B_0_1_2 = addFloats(B_0_1_1, A_1_1_3);
-	let WXb_0_1 = addFloats(B_0_1_2, Float {sign: 1, mantissa: 7689792, exponent: 93 });
+	let WXb_0_1 = addFloats(B_0_1_2, Float {sign: 1, mantissa: 4544296, exponent: 93 });
 	let X_1_1 = relu(WXb_0_1);
-	let A_2_0_0 = mulFloats(X_1_0, Float {sign: 1, mantissa: 7565730, exponent: 93 });
-	let A_2_0_1 = mulFloats(X_1_1, Float {sign: 1, mantissa: 1422424, exponent: 90 });
+	let A_2_0_0 = mulFloats(X_1_0, Float {sign: 1, mantissa: 1463695, exponent: 94 });
+	let A_2_0_1 = mulFloats(X_1_1, Float {sign: 0, mantissa: 5688212, exponent: 93 });
 	let B_1_0_0 = addFloats(A_2_0_0, A_2_0_1);
-	let WXb_1_0 = addFloats(B_1_0_0, Float {sign: 0, mantissa: 1166841, exponent: 94 });
+	let WXb_1_0 = addFloats(B_1_0_0, Float {sign: 0, mantissa: 3104095, exponent: 93 });
 	let X_2_0 = relu(WXb_1_0);
-	let A_2_1_0 = mulFloats(X_1_0, Float {sign: 1, mantissa: 173, exponent: 86 });
-	let A_2_1_1 = mulFloats(X_1_1, Float {sign: 0, mantissa: 3326744, exponent: 91 });
+	let A_2_1_0 = mulFloats(X_1_0, Float {sign: 1, mantissa: 4517394, exponent: 93 });
+	let A_2_1_1 = mulFloats(X_1_1, Float {sign: 0, mantissa: 6733924, exponent: 93 });
 	let B_1_1_0 = addFloats(A_2_1_0, A_2_1_1);
-	let WXb_1_1 = addFloats(B_1_1_0, Float {sign: 1, mantissa: 3018038, exponent: 93 });
+	let WXb_1_1 = addFloats(B_1_1_0, Float {sign: 0, mantissa: 9287307, exponent: 93 });
 	let X_2_1 = relu(WXb_1_1);
-	let A_2_2_0 = mulFloats(X_1_0, Float {sign: 1, mantissa: 3681168, exponent: 93 });
-	let A_2_2_1 = mulFloats(X_1_1, Float {sign: 1, mantissa: 4147906, exponent: 88 });
+	let A_2_2_0 = mulFloats(X_1_0, Float {sign: 0, mantissa: 2441384, exponent: 91 });
+	let A_2_2_1 = mulFloats(X_1_1, Float {sign: 1, mantissa: 2200086, exponent: 92 });
 	let B_1_2_0 = addFloats(A_2_2_0, A_2_2_1);
-	let WXb_1_2 = addFloats(B_1_2_0, Float {sign: 0, mantissa: 7345154, exponent: 93 });
+	let WXb_1_2 = addFloats(B_1_2_0, Float {sign: 1, mantissa: 6575089, exponent: 93 });
 	let X_2_2 = relu(WXb_1_2);
-	let A_3_0_0 = mulFloats(X_2_0, Float {sign: 0, mantissa: 2199182, exponent: 94 });
-	let A_3_0_1 = mulFloats(X_2_1, Float {sign: 1, mantissa: 6320441, exponent: 92 });
-	let A_3_0_2 = mulFloats(X_2_2, Float {sign: 0, mantissa: 1702118, exponent: 94 });
+	let A_3_0_0 = mulFloats(X_2_0, Float {sign: 1, mantissa: 7529542, exponent: 93 });
+	let A_3_0_1 = mulFloats(X_2_1, Float {sign: 1, mantissa: 1213658, exponent: 94 });
+	let A_3_0_2 = mulFloats(X_2_2, Float {sign: 1, mantissa: 3200535, exponent: 89 });
 	let B_2_0_0 = addFloats(A_3_0_0, A_3_0_1);
 	let B_2_0_1 = addFloats(B_2_0_0, A_3_0_2);
-	let WXb_2_0 = addFloats(B_2_0_1, Float {sign: 1, mantissa: 8068649, exponent: 93 });
+	let WXb_2_0 = addFloats(B_2_0_1, Float {sign: 0, mantissa: 1517988, exponent: 94 });
 	let O_3_0 = relu(WXb_2_0);
-	let A_3_1_0 = mulFloats(X_2_0, Float {sign: 1, mantissa: 6908256, exponent: 93 });
-	let A_3_1_1 = mulFloats(X_2_1, Float {sign: 1, mantissa: 5093155, exponent: 92 });
-	let A_3_1_2 = mulFloats(X_2_2, Float {sign: 1, mantissa: 1573242, exponent: 94 });
+	let A_3_1_0 = mulFloats(X_2_0, Float {sign: 1, mantissa: 1221788, exponent: 94 });
+	let A_3_1_1 = mulFloats(X_2_1, Float {sign: 0, mantissa: 8858901, exponent: 93 });
+	let A_3_1_2 = mulFloats(X_2_2, Float {sign: 0, mantissa: 2207043, exponent: 92 });
 	let B_2_1_0 = addFloats(A_3_1_0, A_3_1_1);
 	let B_2_1_1 = addFloats(B_2_1_0, A_3_1_2);
-	let WXb_2_1 = addFloats(B_2_1_1, Float {sign: 0, mantissa: 6239039, exponent: 93 });
+	let WXb_2_1 = addFloats(B_2_1_1, Float {sign: 1, mantissa: 8762696, exponent: 93 });
 	let O_3_1 = relu(WXb_2_1);
-	let A_3_2_0 = mulFloats(X_2_0, Float {sign: 1, mantissa: 1771110, exponent: 94 });
-	let A_3_2_1 = mulFloats(X_2_1, Float {sign: 1, mantissa: 2374791, exponent: 91 });
-	let A_3_2_2 = mulFloats(X_2_2, Float {sign: 1, mantissa: 1539892, exponent: 93 });
+	let A_3_2_0 = mulFloats(X_2_0, Float {sign: 0, mantissa: 1800546, exponent: 94 });
+	let A_3_2_1 = mulFloats(X_2_1, Float {sign: 1, mantissa: 5951817, exponent: 92 });
+	let A_3_2_2 = mulFloats(X_2_2, Float {sign: 0, mantissa: 6244912, exponent: 92 });
 	let B_2_2_0 = addFloats(A_3_2_0, A_3_2_1);
 	let B_2_2_1 = addFloats(B_2_2_0, A_3_2_2);
-	let WXb_2_2 = addFloats(B_2_2_1, Float {sign: 0, mantissa: 4816844, exponent: 93 });
+	let WXb_2_2 = addFloats(B_2_2_1, Float {sign: 1, mantissa: 1559046, exponent: 94 });
 	let O_3_2 = relu(WXb_2_2);
 
 	assert( O_3_0.sign == y_1.sign, 'assert 1');

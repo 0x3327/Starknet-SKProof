@@ -21,7 +21,7 @@ mlp.fit(X, y)
 mlpcp = MLPClassifierProver(
     mlp,
     'src/main.cairo',
-    './zkfloat/zkfloat.cairo',
+    './starknet-zkfloat/zkfloat.cairo',
     7
 )
 
