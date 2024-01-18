@@ -276,5 +276,5 @@ class MLPClassifierProver:
             print('Generating proof, this may take a while...')
         if len(path) != 0:
             os.system(f'cd {"/".join(path)}')
-        os.system("cairo-run src/main.cairo --available-gas=200000000")
+        os.system("scarb cairo-run")
         print(f'Done!')

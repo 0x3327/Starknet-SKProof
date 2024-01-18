@@ -20,7 +20,7 @@ mlp.fit(X, y)
 # Generate proof for the first row
 mlpcp = MLPClassifierProver(
     mlp,
-    'src/main.cairo',
+    'src/lib.cairo',
     './starknet-zkfloat/zkfloat.cairo',
     7
 )
